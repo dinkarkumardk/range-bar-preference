@@ -6,10 +6,19 @@ Ever wanted to use a range bar in your android shared preferences. This library 
 <img src="https://cloud.githubusercontent.com/assets/16980993/23489687/3233bfe8-ff37-11e6-8917-0337462bf64c.png" width="255">
 
 ## Usage
-
-Add this to your module dependencies:
+Add it in your root build.gradle at the end of repositories:
 ```groovy
-    compile 'com.nfx.android:range-bar-preference:0.0.6'
+allprojects {
+  repositories {
+	...
+	maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Add this to your app module dependencies:
+```groovy
+    implementation 'com.github.dk19121991:range-bar-preference:0.0.7'
 ````
 
 Now just add the preference to to your preference xml file like any other preference
