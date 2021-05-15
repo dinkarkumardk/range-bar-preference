@@ -3,7 +3,7 @@ package com.nfx.android.rangebarpreference;
 import android.content.Context;
 import android.os.Build;
 import android.preference.Preference;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.View;
 
